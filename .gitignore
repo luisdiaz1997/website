@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Keep the compiled Vue bundle under version control so Flask/Heroku can serve it
+!frontend/dist/
