@@ -2,11 +2,15 @@
   <main class="home">
     <section class="hero">
       <p class="eyebrow">Personal Playground</p>
-      <h1>Hi, I'm Luis — I make thoughtful ML demos & tools.</h1>
+      <h1>
+        Hi, I'm Luis F. Chumpitaz Diaz — a PhD candidate developing machine
+        learning methods for genomics.
+      </h1>
       <p class="hero__text">
-        I enjoy pairing clean UX with practical models so people can feel what AI
-        is capable of. My current sandbox is a digit-recognition lab that lets
-        anyone sketch a number and watch a Torch model respond in real time.
+        I turn that research into thoughtful ML demos and tools. I enjoy pairing
+        clean UX with practical models so people can feel what AI is capable of.
+        My current sandbox is a digit-recognition lab that lets anyone sketch a
+        number and watch a Torch model respond in real time.
       </p>
       <div class="hero__cta">
         <a
@@ -56,7 +60,11 @@
         </p>
       </div>
       <div class="focus__grid">
-        <article v-for="item in focusAreas" :key="item.title" class="focus-card">
+        <article
+          v-for="item in focusAreas"
+          :key="item.title"
+          class="focus-card"
+        >
           <h4>{{ item.title }}</h4>
           <p>{{ item.description }}</p>
         </article>

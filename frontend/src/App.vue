@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <header class="site-nav">
-      <router-link class="site-nav__brand" to="/">Luis F. Costa</router-link>
+      <router-link class="site-nav__brand" to="/">
+        Luis F. Chumpitaz Diaz
+      </router-link>
       <div class="site-nav__links">
         <router-link class="site-nav__link" to="/">Home</router-link>
         <a
